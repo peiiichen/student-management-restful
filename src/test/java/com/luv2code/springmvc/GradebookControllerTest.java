@@ -139,7 +139,13 @@ public class GradebookControllerTest {
                         .content(objectMapper.writeValueAsString(student)))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$", hasSize(2)));
+    }
 
+    @Test
+    public void getStudentInformationHttpRequest() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get("/studentInformation/{id}", 1))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.firstname").value("student"));
     }
 
     @AfterEach
