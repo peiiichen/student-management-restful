@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d6c9f5-80f6-420f-a831-c0e3c7782424" name="Changes" comment="" />
+    <list default="true" id="b7d6c9f5-80f6-420f-a831-c0e3c7782424" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-testing-annotation.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +50,7 @@
   <component name="RunManager">
     <configuration name="MvcTestingExampleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.MvcTestingExampleApplication" />
-      <module name="springboot-test" />
+      <module name="student-managemet-restful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.luv2code.springmvc.*" />
